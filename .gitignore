@@ -19,8 +19,8 @@ dist/
 # Python egg metadata, regenerated from source files by setuptools.
 *.egg-info
 
-# Scrap or obsolete code
-[deprecated]/
+# Scrap or obsolete code in the [deprecated] folder. Use escapes for the '[' and ']' since GIT treats them as special
+\[deprecated\]/
 
 #########################       OTHERS SUGGESTIONS FROM TEMPLATE IN         ##################################
 #

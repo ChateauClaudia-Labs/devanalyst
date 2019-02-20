@@ -17,6 +17,8 @@ setup(name='devanalyst',
       install_requires=[
           'pandas', 'numpy', 'IPython', 'nbformat',
       ],
+      setup_requires=["pytest-runner", ],
+      tests_require=["pytest",],
       include_package_data=True,
       zip_safe=False,
       keywords='development efficiency analysis process simulation',
