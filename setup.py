@@ -13,7 +13,7 @@ setup(name='devanalyst',
       author_email='alejandro.hernandez.chaves@gmail.com',
       license='MIT',
       #packages=setuptools.find_packages(),      
-      packages=['devanalyst'],
+      packages=['devanalyst', 'devanalyst-examples'],
       install_requires=[
           'pandas', 'numpy', 'IPython', 'nbformat',
       ],
