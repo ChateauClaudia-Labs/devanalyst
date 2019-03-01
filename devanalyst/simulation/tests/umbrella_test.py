@@ -29,7 +29,13 @@ class test_WorkAssignments(TestCase):
     def test_Initial(self):
         self.assertTrue(tt.testOK('test_WorkAssignments.Initial'))
     def test_Final(self):
-        self.assertTrue(tt.testOK('test_WorkAssignments.Final'))    
+        self.assertTrue(tt.testOK('test_WorkAssignments.Final')) 
+
+class test_greedyAllocation(TestCase):
+    def test_Committed(self):
+        self.assertTrue(tt.testOK('test_greedyAllocation.Committed'))
+    def test_Tasks(self):
+        self.assertTrue(tt.testOK('test_greedyAllocation.Tasks'))   
 
 class test_oneSprint(TestCase):
     def test_Start_Committed(self):
