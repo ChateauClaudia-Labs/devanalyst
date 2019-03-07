@@ -1,11 +1,11 @@
 import unittest
 from unittest import TestCase
 
-import devanalyst.simulation.tests.test_timecard as tt
+import devanalyst.simulation.tests.test_timecard # Import needed to populate tu_.ACTUAL and tu_.EXPECTED
 
 import devanalyst.simulation.tests.test_utils as tu_
 
-
+# --------------------------------- Timecard tests ----------------------------------
 class test_uss(TestCase):
     def test(self):
         self.assertTrue(tu_.testOK('uss'))
@@ -31,13 +31,7 @@ class test_WorkAssignments(TestCase):
     def test_Initial(self):
         self.assertTrue(tu_.testOK('test_WorkAssignments.Initial'))
     def test_Final(self):
-        self.assertTrue(tu_.testOK('test_WorkAssignments.Final')) 
-
-class test_greedyAllocation(TestCase):
-    def test_Committed(self):
-        self.assertTrue(tu_.testOK('test_greedyAllocation.Committed'))
-    def test_Tasks(self):
-        self.assertTrue(tu_.testOK('test_greedyAllocation.Tasks'))   
+        self.assertTrue(tu_.testOK('test_WorkAssignments.Final'))  
 
 class test_oneSprint(TestCase):
     def test_Start_Committed(self):
