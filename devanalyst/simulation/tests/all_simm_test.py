@@ -7,6 +7,10 @@ import devanalyst.simulation.tests.test_utils as tu_
 
 # ----------------------------- Simulation Model tests ------------------------------
 
+class test_greedyAllocationLogs(TestCase):
+    def test_Committed(self):
+        self.assertTrue(tu_.testOK('simm.test_greedyAllocationLogs'))
+
 class test_greedyAllocation(TestCase):
     def test_Committed(self):
         self.assertTrue(tu_.testOK('simm.test_greedyAllocation.Committed'))
