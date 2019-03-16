@@ -56,12 +56,22 @@ class test_multipleSprints(TestCase):
 class test_releaseCycle(TestCase):
     def test_Entries(self):
         self.assertTrue(tu_.testOK('test_releaseCycle.Entries'))
-    def test_Anton(self):
-        self.assertTrue(tu_.testOK('test_releaseCycle.Anton'))  
-    def test_Glenna(self):
-        self.assertTrue(tu_.testOK('test_releaseCycle.Glenna'))
     def test_Burnout(self):
         self.assertTrue(tu_.testOK('test_releaseCycle.Burnout'))
+    def test_planned_Start_CURRENT_SPRINT(self):
+        self.assertTrue(tu_.testOK('test_releaseCycle.planned_Start_CURRENT_SPRINT'))  
+    def test_planned_End_CURRENT_SPRINT(self):
+        self.assertTrue(tu_.testOK('test_releaseCycle.planned_End_CURRENT_SPRINT'))  
+    def test_planned_Start_NEXT_SPRINT(self):
+        self.assertTrue(tu_.testOK('test_releaseCycle.planned_Start_NEXT_SPRINT'))  
+    def test_planned_End_NEXT_SPRINT(self):
+        self.assertTrue(tu_.testOK('test_releaseCycle.planned_End_NEXT_SPRINT'))  
+    def test_backlog(self):
+        self.assertTrue(tu_.testOK('test_releaseCycle.backlog'))  
+    def test_Outcome(self):
+        self.assertTrue(tu_.testOK('test_releaseCycle.Outcome'))  
+
+
 
 # This does not test the functionality, but just the test template to ensure that if someone
 # copies-and-pastes it to define a new test, at least it is going to compile and run
