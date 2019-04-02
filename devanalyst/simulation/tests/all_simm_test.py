@@ -22,3 +22,9 @@ class test_balancedAllocation(TestCase):
         self.assertTrue(tu_.testOK('simm.test_balancedAllocation.Committed'))
     def test_Tasks(self):
         self.assertTrue(tu_.testOK('simm.test_balancedAllocation.Tasks')) 
+
+class test_distributedLagQualityModel(TestCase):
+    def test_bugs(self):
+        self.assertTrue(tu_.testOK('simm.test_distributedLagQualityModel.bugs'))
+    def test_stories(self):
+        self.assertTrue(tu_.testOK('simm.test_distributedLagQualityModel.stories')) 
