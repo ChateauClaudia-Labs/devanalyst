@@ -68,7 +68,33 @@ class test_releaseCycle(TestCase):
         self.assertTrue(tu_.testOK('test_releaseCycle.planned_End_NEXT_SPRINT'))  
     def test_backlog(self):
         self.assertTrue(tu_.testOK('test_releaseCycle.backlog'))  
+    def test_Resourcing(self):
+        self.assertTrue(tu_.testOK('test_releaseCycle.Resourcing'))   
     def test_Outcome(self):
-        self.assertTrue(tu_.testOK('test_releaseCycle.Outcome'))  
+        self.assertTrue(tu_.testOK('test_releaseCycle.Outcome')) 
+
+class test_buggyReleaseCycle(TestCase):
+    def test_Entries(self):
+        self.assertTrue(tu_.testOK('test_buggyReleaseCycle.Entries'))
+    def test_User_Stories(self):
+        self.assertTrue(tu_.testOK('test_buggyReleaseCycle.User_Stories'))
+    def test_Tickets(self):
+        self.assertTrue(tu_.testOK('test_buggyReleaseCycle.Tickets'))
+    def test_Burnout(self):
+        self.assertTrue(tu_.testOK('test_buggyReleaseCycle.Burnout'))
+    def test_planned_Start_CURRENT_SPRINT(self):
+        self.assertTrue(tu_.testOK('test_buggyReleaseCycle.planned_Start_CURRENT_SPRINT'))  
+    def test_planned_End_CURRENT_SPRINT(self):
+        self.assertTrue(tu_.testOK('test_buggyReleaseCycle.planned_End_CURRENT_SPRINT'))  
+    def test_planned_Start_NEXT_SPRINT(self):
+        self.assertTrue(tu_.testOK('test_buggyReleaseCycle.planned_Start_NEXT_SPRINT'))  
+    def test_planned_End_NEXT_SPRINT(self):
+        self.assertTrue(tu_.testOK('test_buggyReleaseCycle.planned_End_NEXT_SPRINT'))  
+    def test_backlog(self):
+        self.assertTrue(tu_.testOK('test_buggyReleaseCycle.backlog'))  
+    def test_Resourcing(self):
+        self.assertTrue(tu_.testOK('test_buggyReleaseCycle.Resourcing'))   
+    def test_Outcome(self):
+        self.assertTrue(tu_.testOK('test_buggyReleaseCycle.Outcome'))   
 
 
