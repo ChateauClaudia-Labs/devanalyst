@@ -8,7 +8,13 @@ include LICENSE.txt
 include config.json
 
 # Include resources accessed by Python code
-recursive-include resources *
+recursive-include devanalyst/resources *
+
+# Include Jupyter notebooks and Python code
+recursive-include devanalyst *.ipynb *.py
 
 # Include documentation
 recursive-include docs *
+
+# Include command that runs the test harness
+include runtests

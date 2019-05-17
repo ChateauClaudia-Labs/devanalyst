@@ -4,13 +4,13 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(name='devanalyst',
-      version='0.1',
+      version='0.1.0.dev1',
       description='Tools to simulate and analyze software development lifecycles',
       long_description=long_description,
       long_description_content_type="text/markdown",      
-      url='http://github.com/alejandrohd/devanalyst',
+      url='http://github.com/ChateauClaudia-Labs/devanalyst',
       author='Alejandro Hernandez',
-      author_email='alejandro.hernandez.chaves@gmail.com',
+      author_email='alejandro@chateauclaudia-labs.com',
       license='MIT',
       #packages=setuptools.find_packages(),      
       packages=['devanalyst', 'devanalyst-examples'],
