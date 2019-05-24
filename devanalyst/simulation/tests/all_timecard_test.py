@@ -3,7 +3,7 @@ from unittest import TestCase
 
 import devanalyst.simulation.tests.test_timecard # Import needed to populate tu_.ACTUAL and tu_.EXPECTED
 
-import devanalyst.simulation.tests.test_utils as tu_
+import devanalyst.test_utils.test_utils as tu_
 
 # --------------------------------- Timecard tests ----------------------------------
 class test_uss(TestCase):

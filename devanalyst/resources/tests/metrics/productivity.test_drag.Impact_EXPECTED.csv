@@ -1,0 +1,9 @@
+,Metric,Full R&D Team,Without drag,% difference
+0,Headcount,30.0,24.0,-20.0
+1,Implementation Effort (days),4692.0,4343.0,-7.44
+2,Debugging Effort (days),460.0,414.0,-9.92
+3,Total Effort (days),5151.0,4757.0,-7.66
+4,Cost ($),477814.0,454002.0,-4.98
+5,Stories completed (#),320.0,320.0,0.0
+6,When implementation is completed (sprint #),22.0,26.0,18.18
+7,When implementation is 90.0% completed (sprint #),18.0,20.0,11.11

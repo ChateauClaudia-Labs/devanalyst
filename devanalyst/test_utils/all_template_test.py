@@ -1,9 +1,9 @@
 import unittest
 from unittest import TestCase
 
-import devanalyst.simulation.tests.test_template # Import needed to populate tu_.ACTUAL and tu_.EXPECTED
+import devanalyst.test_utils.test_template # Import needed to populate tu_.ACTUAL and tu_.EXPECTED
 
-import devanalyst.simulation.tests.test_utils as tu_
+import devanalyst.test_utils.test_utils as tu_
 
 # --------------------------------- Template tests ----------------------------------
 
