@@ -1,0 +1,5 @@
+,Sprint,Owner,Task Type,Task Description,User Story Id,Planned for Sprint,Most Recently Assigned in Sprint,Delivered in Sprint,Original Estimate,Bucket,Effort Spent,Effort Remaining,Percent Achieved,Global Estimate,% Global Done
+2,9,Anton Easterday,UNFINISHED_STORIES,Story implementation,UserStory #1,9.0,9.0,NOT_SET,10.0,NEXT_SPRINT,0.0,10.0,0.0,10.0,0.0
+24,10,Heriberto Martini,UNFINISHED_STORIES,Story implementation,UserStory #1,9.0,10.0,NOT_SET,10.0,CURRENT_SPRINT,5.800000000000001,7.1,0.29000000000000004,10.0,0.29000000000000004
+18,11,Heriberto Martini,UNFINISHED_STORIES,Story implementation,UserStory #1,9.0,10.0,NOT_SET,7.1,CURRENT_SPRINT,10.0,2.0999999999999996,0.7042253521126761,10.0,0.79
+14,12,Heriberto Martini,UNFINISHED_STORIES,Story implementation,UserStory #1,9.0,10.0,12,2.0999999999999996,CURRENT_SPRINT,4.199999999999999,0.0,1.0,10.0,1.0

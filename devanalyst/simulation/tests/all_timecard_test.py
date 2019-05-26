@@ -98,3 +98,21 @@ class test_buggyReleaseCycle(TestCase):
         self.assertTrue(tu_.testOK('test_buggyReleaseCycle.Outcome'))   
 
 
+class test_workStealing(TestCase):
+    def test_burnout(self):
+        self.assertTrue(tu_.testOK('timecard.test_workStealing.burnout'))
+    def test_utilization(self):
+        self.assertTrue(tu_.testOK('timecard.test_workStealing.utilization'))
+    def test_works_stolen(self):
+        self.assertTrue(tu_.testOK('timecard.test_workStealing.works_stolen'))
+    def test_userStory1_work_stolen_explanation(self):
+        self.assertTrue(tu_.testOK('timecard.test_workStealing.userStory1_work_stolen_explanation'))
+    def test_userStory70_work_stolen_explanation(self):
+        self.assertTrue(tu_.testOK('timecard.test_workStealing.userStory70_work_stolen_explanation'))
+    def test_laggard_candidates_to_steal_sprint13(self):
+        self.assertTrue(tu_.testOK('timecard.test_workStealing.laggard_candidates_to_steal_sprint13'))
+    def test_balance_candidates_to_steal_sprint13(self):
+        self.assertTrue(tu_.testOK('timecard.test_workStealing.balance_candidates_to_steal_sprint13'))
+    def test_actual_steal_sprint13(self):
+        self.assertTrue(tu_.testOK('timecard.test_workStealing.actual_steal_sprint13'))
+

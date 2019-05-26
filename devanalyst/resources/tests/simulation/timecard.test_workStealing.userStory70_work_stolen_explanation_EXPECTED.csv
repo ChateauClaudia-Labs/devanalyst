@@ -1,0 +1,8 @@
+,Sprint,Owner,Task Type,Task Description,User Story Id,Planned for Sprint,Most Recently Assigned in Sprint,Delivered in Sprint,Original Estimate,Bucket,Effort Spent,Effort Remaining,Percent Achieved,Global Estimate,% Global Done
+18,1,Glenna Mcghie,UNFINISHED_STORIES,Story implementation,UserStory #70,1.0,1.0,NOT_SET,5.0,CURRENT_SPRINT,0.0,5.0,0.0,5.0,0.0
+21,7,Glenna Mcghie,UNFINISHED_STORIES,Story implementation,UserStory #70,1.0,1.0,NOT_SET,5.0,CURRENT_SPRINT,0.0,5.0,0.0,5.0,0.0
+7,8,Beau Hockensmith,UNFINISHED_STORIES,Story implementation,UserStory #70,1.0,8.0,NOT_SET,5.0,CURRENT_SPRINT,0.0,5.0,0.0,5.0,0.0
+7,8,Beau Hockensmith,UNFINISHED_STORIES,Story implementation,UserStory #70,1.0,8.0,NOT_SET,5.0,CURRENT_SPRINT,0.0,5.0,0.0,5.0,0.0
+15,9,Francisco Hoppe,UNFINISHED_STORIES,Story implementation,UserStory #70,1.0,9.0,NOT_SET,5.0,CURRENT_SPRINT,1.3666666666666654,3.6333333333333346,0.2733333333333331,5.0,0.2733333333333331
+12,10,Francisco Hoppe,UNFINISHED_STORIES,Story implementation,UserStory #70,1.0,9.0,10,3.6333333333333346,CURRENT_SPRINT,3.6333333333333346,0.0,1.0,5.0,1.0
+5,13,Francisco Hoppe,DEV_TIME_BUGS,Ticket #27,UserStory #70,13.0,13.0,13,1.0,CURRENT_SPRINT,1.0,0.0,1.0,1.0,1.0
