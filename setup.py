@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(name='devanalyst',
-      version='0.1.0.dev1',
+      version='0.2.0rc1',
       description='Tools to simulate and analyze software development lifecycles',
       long_description=long_description,
       long_description_content_type="text/markdown",      
